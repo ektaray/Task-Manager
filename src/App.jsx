@@ -14,7 +14,7 @@ class App extends React.Component {
     //Add .right by default
     this.rightSide.classList.add("right");
   }
-
+  
   changeState() {
     const { isLogginActive } = this.state;
 
